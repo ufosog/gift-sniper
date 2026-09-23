@@ -1,0 +1,18 @@
+{
+  "id": "a1b2c3d4-0002",
+  "tg_id": "SwissWatch-4821",
+  "collection_id": "col-swisswatch",
+  "name": "SwissWatch",
+  "external_collection_number": 4821,
+  "price": "9.5",
+  "floor_price": "12.0",
+  "photo_url": "https://cdn.portal-market.com/swisswatch/4821.png",
+  "animation_url": null,
+  "listed_at": "2026-09-05T10:05:00Z",
+  "unlocks_at": null,
+  "status": "listed",
+  "attributes": [
+    {"type": "model", "value": "Emperor", "rarity_per_mille": 0.7},
+    {"type": "backdrop", "value": "Copper", "rarity_per_mille": 2.0}
+  ]
+}

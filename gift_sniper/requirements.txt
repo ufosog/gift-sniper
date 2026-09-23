@@ -1,0 +1,4 @@
+requests>=2.31
+pytest>=7.4
+telethon>=1.45
+curl_cffi

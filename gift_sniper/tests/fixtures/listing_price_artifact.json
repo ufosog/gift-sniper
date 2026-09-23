@@ -1,0 +1,19 @@
+{
+  "id": "a1b2c3d4-0003",
+  "tg_id": "Jackpot-1001",
+  "collection_id": "col-jackpot",
+  "name": "Jackpot",
+  "external_collection_number": 1001,
+  "price": "4.079999995",
+  "floor_price": "6.36734694",
+  "photo_url": null,
+  "animation_url": null,
+  "listed_at": "2026-09-05T10:10:00Z",
+  "unlocks_at": null,
+  "status": "listed",
+  "attributes": [
+    {"type": "model", "value": "Jackpot", "rarity_per_mille": 1.0},
+    {"type": "backdrop", "value": "Emerald", "rarity_per_mille": 1.2},
+    {"type": "symbol", "value": "Clover", "rarity_per_mille": 0.9}
+  ]
+}

@@ -1,0 +1,22 @@
+# секреты
+env.ps1
+gift-sniper.env
+secrets/
+*.session
+*.session-journal
+# данные и выгрузки
+*.db
+*.db-wal
+*.db-shm
+*.tar.gz
+bundle.js
+/logs/
+# отчёты сервера лежат в reports/ и приходят пушем с сервера
+__pycache__/
+.pytest_cache/
+*.pyc
+# старые разовые скрипты и дампы
+audit*.py
+audit*.txt
+rep_*.txt
+report*.txt

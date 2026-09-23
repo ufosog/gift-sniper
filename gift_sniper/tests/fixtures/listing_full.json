@@ -1,0 +1,19 @@
+{
+  "id": "a1b2c3d4-0001",
+  "tg_id": "IceCream-45374",
+  "collection_id": "col-icecream",
+  "name": "IceCream",
+  "external_collection_number": 45374,
+  "price": "17.99",
+  "floor_price": "22.49",
+  "photo_url": "https://cdn.portal-market.com/icecream/45374.png",
+  "animation_url": "https://cdn.portal-market.com/icecream/45374.tgs",
+  "listed_at": "2026-09-05T10:00:00Z",
+  "unlocks_at": null,
+  "status": "listed",
+  "attributes": [
+    {"type": "model", "value": "Inception", "rarity_per_mille": 1.5},
+    {"type": "backdrop", "value": "Onyx Black", "rarity_per_mille": 2.0},
+    {"type": "symbol", "value": "Royal Crown", "rarity_per_mille": 0.5}
+  ]
+}

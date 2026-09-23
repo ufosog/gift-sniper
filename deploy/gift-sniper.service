@@ -1,0 +1,19 @@
+[Unit]
+Description=Gift Sniper (supervisor: pollers + journal closer + bot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=gs
+WorkingDirectory=/opt/gift-sniper
+EnvironmentFile=/opt/gift-sniper/gift-sniper.env
+ExecStart=/opt/gift-sniper/venv/bin/python -m gift_sniper.supervisor
+# The supervisor restarts its children itself; systemd restarts the
+# supervisor if it dies, and starts it after a reboot.
+Restart=always
+RestartSec=10
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
